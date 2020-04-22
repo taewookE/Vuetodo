@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     addTodo(todoItem){
-      localStorage.setItem(value, value);
+      localStorage.setItem("value", todoItem); // 기존 value , value 로 셋팅되어 있음. 
       this.todoItems.push(todoItem);
     },
     clearAll() {
